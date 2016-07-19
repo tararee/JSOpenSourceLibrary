@@ -8,17 +8,13 @@
 var myName = "Tara";
 console.log(myName);
 //You put a string of text in quotations
-var myFullName = "Tara Ree Miller"
-console.log(myFullName)
+var myFullName = "Tara Ree Miller";
+console.log(myFullName);
 //you don't put a defined variable into quotations,
 //which is why it wasn't console.log("myFullName")
 //which would have printed "myFullName" instead
 //of Tara Ree Miller
 
-// var password = "Passw0rd$"
-// var birthDate = "March 14";
-// console.log(birthDate);
-// console.log("9" + "10");
 
 
 var myLocation = "on a boat";
@@ -29,13 +25,12 @@ var yourLocation = "Kinko's";
 var yourActivity ="straight flippin' copies";
 
 var comma = ",";
-var period = "."
+var period = ".";
 
 //Concatentation is adding strings together using
 //a + sign. It's fun. It's hard not to call it concantenation #truefacts
-console.log("I got my " + myAttire + " and my " + myAttireTwo
- + period + " I'm " + myActivity + comma + " you at " + yourLocation
- + ", " + yourActivity + " .");
+console.log("I got my " + myAttire + " and my " + myAttireTwo + period + " I'm "
+ + myActivity + comma + " you at " + yourLocation + ", " + yourActivity + " .");
 //notice that you can either use the comma that we added as a variable, or 
 //just throw a comma in some quotation marks. I think the latter is easier,
 //because you can control the spaces around it.
@@ -56,8 +51,8 @@ var SIUnit = " knots";
 var takeALookAtMe = (activity + speed + SIUnit);
 
 //
-console.log 
-(takeALookAtMe + comma + " wind whippin' in my hair")
+console.log
+(takeALookAtMe + comma + " wind whippin' in my hair");
 
 
 //Let's concatenate that variable into another
@@ -76,15 +71,9 @@ var personalInfo = firstName + " " + lastName + comma + " " + age + " "
 + comma + gender;
 console.log(personalInfo);
 
-//In summary
+//In summary:
 
 var introduction = "Hi, my name is " + firstName + " " + lastName + period +
 " I am " + age + " years old, and I'm " + myLocation + period;
-console.log(introduction)
-
-
-
-
-
-//Come up with something else(if time) Use bank account, temperature, etc.
+console.log(introduction);
 
