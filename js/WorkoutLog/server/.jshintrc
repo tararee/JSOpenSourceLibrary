@@ -1,8 +1,0 @@
-{
-	"globals": {
-		"console": true,
-		"require": true,
-		"module": true,
-		"__dirname": true
-	}
-}
