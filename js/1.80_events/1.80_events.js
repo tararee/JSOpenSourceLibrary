@@ -1,5 +1,5 @@
 //triggers events upon an action
-<button onclick="displayName()">The time is?</button>
+// <button onclick="displayName()">The time is?</button>
 
 //someHTML events
 // onchange	An HTML element has been changed
