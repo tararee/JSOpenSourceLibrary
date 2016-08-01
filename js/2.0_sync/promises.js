@@ -21,3 +21,24 @@ squareWithCallback(10, function(num) {
 		});
 	});
 });
+
+// promises!
+
+var square = function(num) {
+
+	return new Promise(function(resolve, reject) {
+
+		sleep(1000).call(this, function() {
+			resolve( num * num );
+		});
+	});
+};
+
+square(10)
+.then(square)
+.then(square)
+.then(square)
+.then(square)
+.then(function(total) {
+	console.log(total);
+});
